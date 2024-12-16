@@ -1,0 +1,22 @@
+#about {
+    background-image: url('/public/about-us-bg.jpg'); /* Reference the image in the public folder */
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Ensure the div takes up the full height of the viewport */
+    color: white; /* Make the text readable on top of the image */
+    display: flex; /* Flexbox to center content */
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  h2 {
+    font-size: 5em;
+  }
+  
+  p {
+    font-size: 24px;
+    font-style: italic;
+  }
+  

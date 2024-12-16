@@ -1,0 +1,22 @@
+#home {
+    background-image: url('/public/background-img.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  h1{
+    font-size: 35px;
+  }
+  
+  p {
+    font-size: 35px;
+    font-style: italic;
+  }
+  
