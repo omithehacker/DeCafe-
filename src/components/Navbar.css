@@ -1,0 +1,45 @@
+.navbar {
+    background-color: rgba(141, 82, 40, 0.555);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #logo{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  span#cafe{
+    color: whitesmoke;
+  }
+
+  .navbar-buttons .btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .nav-link{
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+
+
+ .home-btn, .menu-btn, .about-btn, .contact-btn{
+   background-color: white;
+   color: rgb(92, 92, 92);
+   border-radius: 10px;
+   border: 10px;
+   cursor: pointer;
+   padding: 10px 15px;
+   font-family:'Lucida Sans';
+   margin-left: 2px;
+ }
+
+ .home-btn:hover, .menu-btn:hover, .about-btn:hover, .contact-btn:hover{
+  background-color: rgba(141, 82, 40, 0.555);
+   color: white;
+ }

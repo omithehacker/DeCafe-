@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';  
+import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
       <h1 id="logo">De <span id="cafe">cafe&#769;</span></h1>
       <div className="navbar-buttons">
-        {/* Link components will handle routing */}
         <Link to="/" className="nav-link">
           <button className="home-btn">Home</button>
         </Link>
