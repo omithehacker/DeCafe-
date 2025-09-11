@@ -55,7 +55,7 @@ function About() {
         <h3>Visit Us</h3>
         <p>
           Whether you're here for a quick espresso, a long chat with friends, or to discover your
-          next favorite brew, we’re excited to welcome you to <strong>De Cafe</strong>.
+          next favorite brew, we're excited to welcome you to <strong>De Cafe</strong>.
         </p>
         <p>
           📍 <strong>Address:</strong> 123 Coffee Street, Beanville <br />
