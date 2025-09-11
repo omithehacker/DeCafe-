@@ -1,45 +1,69 @@
+/* Normal Desktop Navbar */
 .navbar {
-    background-color: rgba(141, 82, 40, 0.555);
-    padding: 3px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #logo{
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 20px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  span#cafe{
-    color: whitesmoke;
-  }
-
-  .navbar-buttons .btn{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-  }
-
-  .nav-link{
-    text-decoration: none; 
-    margin: 0 10px; 
-  }
-
-
- .home-btn, .menu-btn, .about-btn, .contact-btn{
-   background-color: white;
-   color: rgb(92, 92, 92);
-   border-radius: 10px;
-   border: 10px;
-   cursor: pointer;
-   padding: 10px 15px;
-   font-family:'Lucida Sans';
-   margin-left: 2px;
- }
-
- .home-btn:hover, .menu-btn:hover, .about-btn:hover, .contact-btn:hover{
   background-color: rgba(141, 82, 40, 0.555);
-   color: white;
- }
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span#cafe {
+  color: whitesmoke;
+}
+
+.navbar-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.home-btn, .menu-btn, .about-btn, .contact-btn {
+  background-color: white;
+  color: rgb(92, 92, 92);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-family: 'Lucida Sans';
+  transition: all 0.2s ease-in-out;
+}
+
+.home-btn:hover, .menu-btn:hover, .about-btn:hover, .contact-btn:hover {
+  background-color: rgba(141, 82, 40, 0.555);
+  color: white;
+}
+
+/* 📱 Mobile / Small Screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* stack everything */
+    align-items: center;
+    text-align: center;
+  }
+
+  #logo {
+    margin-bottom: 12px;
+  }
+
+  .navbar-buttons {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .home-btn, .menu-btn, .about-btn, .contact-btn {
+    width: 100%; /* buttons full width */
+    margin: 5px 0;
+  }
+}
